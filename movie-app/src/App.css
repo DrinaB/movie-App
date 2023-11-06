@@ -1,17 +1,27 @@
 .movie-container h1 {
   font-size: 40px;
   text-align: center;
+  color:red;
 }
 .movie-container {
   background-color: green;
-  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  
   
 }
 .movie-list img {
   height: 50vh;
   margin: 0 5px;
   max-width: 55 vw;
+  
 }
 .search-bar {
 text-align: center;
+color:red;
+}
+
+.add-movie {
+  text-align: center;
+  color: red;
 }
